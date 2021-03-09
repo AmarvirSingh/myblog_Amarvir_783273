@@ -43,8 +43,7 @@ nav a{
     border-right: solid;
 }
 .left p {
-    text-align: justify;
-   padding: 1em;
+    text-align: start;
     font-size: 1.25em;
 }
 
@@ -64,7 +63,6 @@ aside li{
 
 .left img{
     margin-left: 5px;
-    margin-right: 25px;
     margin-top: 20px;
     border-width: 5px;
     border-style: solid;
@@ -74,10 +72,6 @@ aside li{
     box-shadow: 0.50em 0.50em 0.75em black;
 }
 
-.left li{
-  
-    color: aqua;
-}
 
 
 nav, section,aside, footer {

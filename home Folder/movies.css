@@ -16,10 +16,20 @@ header{
 }
 
 
-
 nav{
-
+    border-top: 2px;
+    border-bottom: 2px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: beige;
     text-align: center;
+    font-size: large;
+}
+
+
+nav a{
+    
     text-decoration: none;
 }
 
