@@ -25,6 +25,9 @@ nav{
     background-color: beige;
     text-align: center;
     font-size: large;
+    border-top-left-radius: 1em;
+    font-size: xx-large;
+    border-bottom-right-radius: 1em;
 }
 
 

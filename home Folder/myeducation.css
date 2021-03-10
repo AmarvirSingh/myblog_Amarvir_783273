@@ -8,7 +8,7 @@ body{
 
 header{
     margin-top: 10px;
-   padding: 5px;
+    padding: 5px;
     background-color: aquamarine;
     border-radius: 1.25em;
     text-align: center;
@@ -16,10 +16,21 @@ header{
 }
 
 
-
 nav{
-
+    border-top: 2px;
+    border-bottom: 2px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: beige;
     text-align: center;
+    font-size: large;
+    border-top-left-radius: 1em;
+    font-size: xx-large;
+    border-bottom-right-radius: 1em;
+}
+
+nav a{
     text-decoration: none;
 }
 
@@ -32,13 +43,20 @@ nav{
     width: 69%;
     border-right: solid;
 }
+
 .left p {
-    text-align: justify;
-   padding: 1em;
+    text-align: start;
+   padding-left: 1em;
     font-size: 1.25em;
+    
+}
+
+.left h1{
+    margin-left: 20px;
 }
 
 aside{
+
     text-align:center;
     border-radius: 1em;
     float: left;
@@ -47,16 +65,24 @@ aside{
     background-color: red;
     border-left: solid;
 }
+
+ aside i{
+     padding-left: 20px;
+     text-align: center;
+ }
 aside li{
     text-align:  start;
     font-weight: 300 ;
 }
+.left b{
+    margin-left: 20px;
+}
 
 .left img{
-    margin-left: 5px;
-    margin-right: 25px;
-    margin-top: 20px;
-    border-width: 5px;
+    float:  left;
+    height: 80px;
+    width: 100px;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
 }
@@ -64,16 +90,13 @@ aside li{
     box-shadow: 0.50em 0.50em 0.75em black;
 }
 
-.left li{
-  
-    color: aqua;
-}
 
 
-nav, section,aside, footer {
+nav, section, aside, footer {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 footer
 {
     
