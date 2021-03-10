@@ -92,3 +92,11 @@ footer
 }
 
 
+
+footer img{
+    width: 20px;
+    height: 20px;
+}
+footer a{
+    text-decoration: none;
+}

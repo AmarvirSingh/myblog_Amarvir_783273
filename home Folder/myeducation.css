@@ -16,20 +16,10 @@ header{
 }
 
 
+
 nav{
-    border-top: 2px;
-    border-bottom: 2px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    background-color: beige;
+
     text-align: center;
-    font-size: large;
-}
-
-
-nav a{
-    
     text-decoration: none;
 }
 
@@ -43,7 +33,8 @@ nav a{
     border-right: solid;
 }
 .left p {
-    text-align: start;
+    text-align: justify;
+   padding: 1em;
     font-size: 1.25em;
 }
 
@@ -63,6 +54,7 @@ aside li{
 
 .left img{
     margin-left: 5px;
+    margin-right: 25px;
     margin-top: 20px;
     border-width: 5px;
     border-style: solid;
@@ -72,6 +64,10 @@ aside li{
     box-shadow: 0.50em 0.50em 0.75em black;
 }
 
+.left li{
+  
+    color: aqua;
+}
 
 
 nav, section,aside, footer {
